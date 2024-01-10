@@ -6,7 +6,6 @@ import frc.robot.subsystems.FlyWheelMotorsSubsystem;
 
 
 public class RunMotorsCommand extends CommandBase {
-
     FlyWheelMotorsSubsystem subsystem;
     SendableChooser<Double> right = new SendableChooser<>();
     SendableChooser<Double> left = new SendableChooser<>();
